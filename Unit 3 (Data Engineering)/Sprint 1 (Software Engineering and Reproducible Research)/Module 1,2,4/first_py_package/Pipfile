@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pandas = "*"
+seaborn = "*"
+wheel = "*"
+scipy = {path = "./scipy-1.7.2-cp310-cp310-win_amd64.whl"}
+numpy = {path = "./numpy-1.21.4+vanilla-cp310-cp310-win_amd64.whl"}
+scikit-learn = {path = "./scikit_learn-1.0.1-cp310-cp310-win_amd64.whl"}
+sklearn = "*"
+
+[dev-packages]
+pytest = "*"
+
+[requires]
+python_version = "3.10"
